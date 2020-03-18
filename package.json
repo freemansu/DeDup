@@ -1,0 +1,33 @@
+{
+  "name": "dedup",
+  "productName": "DeDup",
+  "version": "0.0.1",
+  "description": "Deduplicate files from your computer",
+  "main": "main.js",
+  "bin": "cli.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "test": "mocha && standard",
+    "prepack": "check-for-leaks",
+    "prepush": "check-for-leaks"
+  },
+  "dependencies": {
+    "electron": "^8.1.1",
+    "electron-log": "^4.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freemansu/DeDup.git"
+  },
+  "keywords": [
+    "dedup"
+  ],
+  "author": "Yu Su",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/freemansu/DeDup/issues"
+  },
+  "homepage": "https://github.com/freemansu/DeDup#readme"
+}
