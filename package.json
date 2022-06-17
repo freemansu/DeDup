@@ -13,7 +13,7 @@
     "prepush": "check-for-leaks"
   },
   "dependencies": {
-    "electron": "^8.1.1",
+    "electron": "^15.5.5",
     "electron-log": "^4.1.0"
   },
   "devDependencies": {},
